@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	background: gray;
+}
+
+QComboBox {
+	background: white;	
+	border: 1px solid black;
+
+	border-radius: 8px;
+
+   background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:0.468 rgba(207, 207, 207, 255), stop:0.996 rgba(236, 236, 236, 255));
+ }
+
+QComboBox::hover {
+ background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(230, 235, 241, 255), stop:0.5 rgba(170, 202, 231, 255), stop:0.508 rgba(138, 186, 215, 255), stop:0.996 rgba(194, 221, 236, 255));
+}
+
+QComboBox::drop-down {
+	background: rgba(255, 255, 255, 0);
+    margin-right: 5px;
+	
+}
+
+QComboBox::down-arrow {
+	image: url(/usr/share/nebulae/installer/go-down.png);
+}
+
+ QComboBox QAbstractItemView {
+	background: white;
+     border: 1px solid gray;
+     selection-background-color: lightgray;
+ }</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>270</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Nouvel élément</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nouvel élément</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nouvel élément</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nouvel élément</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>270</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Nouvel élément</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nouvel élément</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nouvel élément</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

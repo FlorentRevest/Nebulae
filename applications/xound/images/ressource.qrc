@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Icon.png</file>
+        <file>Systray_Icon_Play.png</file>
+        <file>Systray_Icon_Play10.png</file>
+        <file>Systray_Icon_Play20.png</file>
+        <file>Systray_Icon_Play30.png</file>
+        <file>Systray_Icon_Play40.png</file>
+        <file>Systray_Icon_Play50.png</file>
+        <file>Systray_Icon_Play60.png</file>
+        <file>Systray_Icon_Play70.png</file>
+        <file>Systray_Icon_Play80.png</file>
+        <file>Systray_Icon_Play90.png</file>
+        <file>Systray_Icon_Play100.png</file>
+        <file>Artist.png</file>
+        <file>Add.png</file>
+        <file>Add_From_Network.png</file>
+        <file>Add_Folder.png</file>
+        <file>Remove.png</file>
+        <file>Player_Play.png</file>
+        <file>Player_Pause.png</file>
+        <file>Player_Previous.png</file>
+        <file>Player_Next.png</file>
+        <file>Volume.png</file>
+        <file>Volume_Mute.png</file>
+        <file>Repeat.png</file>
+        <file>Fullscreen.png</file>
+        <file>Default_Cover.png</file>
+        <file>Systray_Player_Play.png</file>
+        <file>Systray_Player_Pause.png</file>
+        <file>Systray_Close.png</file>
+        <file>Systray_Maximize.png</file>
+        <file>Random.png</file>
+        <file>Open_Playlist.png</file>
+        <file>Save_Playlist.png</file>
+        <file>Remove_Double.png</file>
+        <file>Video.png</file>
+        <file>Music.png</file>
+        <file>Playlist_Icon.png</file>
+        <file>Branch_Closed.png</file>
+        <file>Branch_Open.png</file>
+    </qresource>
+</RCC>

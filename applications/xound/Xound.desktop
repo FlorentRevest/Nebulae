@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Xound
+Exec=xound
+Icon=/usr/share/icons/xound.png
+Type=Application
+Categories=Application;Multimedia;
+Comment=Media Player
+Comment[fr]=Lecteur Multimédia
+Terminal=false

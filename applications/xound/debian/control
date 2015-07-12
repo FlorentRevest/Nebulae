@@ -1,0 +1,17 @@
+Source: xound
+Section: unknown
+Priority: extra
+Maintainer: Florent Revest <xound@tuxfamily.org>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.3
+Homepage: <insert the upstream URL, if relevant>
+
+Package: xound
+Architecture: i386
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Version: 0.1
+Maintainer: Florent Revest <xound@tuxfamily.org>
+Section: sound
+Priority: extra
+Homepage: http://xound.tuxfamily.org/
+Description: Xound is a Qt media player based on phonon. It supports themes, plugins, playlists and so many thing!

@@ -1,0 +1,156 @@
+commit caf65299595c162e0506d5ae043997382d9cb855
+Author: Florent Revest <florent.revest666@gmail.com>
+Date:   Mon Sep 13 11:50:00 2010 +0200
+
+    Some plugins creation, and bug fixs
+    	new file:   INSTALL
+    	new file:   Plugins/Configuration/configuration.png
+    	new file:   Plugins/Configuration/configuration.pro
+    	new file:   Plugins/Configuration/ressource.qrc
+    	new file:   Plugins/Configuration/widget.cpp
+    	new file:   Plugins/Configuration/widget.h
+    	modified:   Plugins/Lyrics/Lyrics.pro
+    	renamed:    Plugins/Lyrics/icon.png -> Plugins/Lyrics/lyrics.png
+    	deleted:    Plugins/Lyrics/moc_plugin.cpp
+    	new file:   Plugins/Lyrics/ressource.qrc
+    	modified:   Plugins/Lyrics/widget.cpp
+    	modified:   Plugins/Lyrics/widget.h
+    	new file:   Plugins/Radio/radio.png
+    	new file:   Plugins/Radio/radio.pro
+    	new file:   Plugins/Radio/ressource.qrc
+    	new file:   Plugins/Radio/widget.cpp
+    	new file:   Plugins/Radio/widget.h
+    	new file:   Plugins/TagEditor/ressource.qrc
+    	renamed:    Plugins/TagEditor/icon.png -> Plugins/TagEditor/tagEditor.png
+    	modified:   Plugins/TagEditor/tagEditor.pro
+    	modified:   Plugins/TagEditor/widget.cpp
+    	modified:   Plugins/Wikipedia/ressource.qrc
+    	modified:   Plugins/Wikipedia/widget.cpp
+    	renamed:    Plugins/Wikipedia/icon.png -> Plugins/Wikipedia/wikipedia.png
+    	modified:   README
+    	modified:   Xound.pro
+    	modified:   include/musiccontrol.h
+    	modified:   include/playlist.h
+    	new file:   libs/qtsingleapplication/INSTALL.TXT
+    	new file:   libs/qtsingleapplication/LGPL_EXCEPTION.txt
+    	new file:   libs/qtsingleapplication/LICENSE.GPL3
+    	new file:   libs/qtsingleapplication/LICENSE.LGPL
+    	new file:   libs/qtsingleapplication/Makefile
+    	new file:   libs/qtsingleapplication/README.TXT
+    	new file:   libs/qtsingleapplication/common.pri
+    	new file:   libs/qtsingleapplication/configure.bat
+    	new file:   libs/qtsingleapplication/qtsingleapplication.pro
+    	renamed:    libs/qtsingleapplication/QtLockedFile -> libs/qtsingleapplication/src/QtLockedFile
+    	renamed:    libs/qtsingleapplication/QtSingleApplication -> libs/qtsingleapplication/src/QtSingleApplication
+    	renamed:    libs/qtsingleapplication/qtlocalpeer.cpp -> libs/qtsingleapplication/src/qtlocalpeer.cpp
+    	renamed:    libs/qtsingleapplication/qtlocalpeer.h -> libs/qtsingleapplication/src/qtlocalpeer.h
+    	renamed:    libs/qtsingleapplication/qtlockedfile.cpp -> libs/qtsingleapplication/src/qtlockedfile.cpp
+    	renamed:    libs/qtsingleapplication/qtlockedfile.h -> libs/qtsingleapplication/src/qtlockedfile.h
+    	renamed:    libs/qtsingleapplication/qtlockedfile_unix.cpp -> libs/qtsingleapplication/src/qtlockedfile_unix.cpp
+    	renamed:    libs/qtsingleapplication/qtlockedfile_win.cpp -> libs/qtsingleapplication/src/qtlockedfile_win.cpp
+    	renamed:    libs/qtsingleapplication/qtsingleapplication.cpp -> libs/qtsingleapplication/src/qtsingleapplication.cpp
+    	renamed:    libs/qtsingleapplication/qtsingleapplication.h -> libs/qtsingleapplication/src/qtsingleapplication.h
+    	renamed:    libs/qtsingleapplication/qtsingleapplication.pri -> libs/qtsingleapplication/src/qtsingleapplication.pri
+    	renamed:    libs/qtsingleapplication/qtsinglecoreapplication.cpp -> libs/qtsingleapplication/src/qtsinglecoreapplication.cpp
+    	renamed:    libs/qtsingleapplication/qtsinglecoreapplication.h -> libs/qtsingleapplication/src/qtsinglecoreapplication.h
+    	renamed:    libs/qtsingleapplication/qtsinglecoreapplication.pri -> libs/qtsingleapplication/src/qtsinglecoreapplication.pri
+    	modified:   main.cpp
+    	modified:   mainwindow.cpp
+    	modified:   musiccontrol.cpp
+    	modified:   musicnote.cpp
+    	modified:   playlist.cpp
+    	modified:   workzone.cpp
+
+commit c72582602053271dfc554c3896c01c0fc2369dcb
+Author: Florent Revest <florent.revest666@gmail.com>
+Date:   Sun Aug 29 17:17:50 2010 +0200
+
+    No more ".svn" folders!
+
+commit 4d4bb91b49a4cbc48593bbec5f89696fe9904c18
+Author: Florent Revest <florent.revest666@gmail.com>
+Date:   Sun Aug 29 12:39:56 2010 +0200
+
+    Xound is now usable! (but you must have one (or more) music in your
+    music directory!)
+
+commit 440d134a14275c3ae7c5e3a5a4e4f567c51c8d28
+Author: Florent Revest <florent.revest666@gmail.com>
+Date:   Fri Aug 20 00:52:00 2010 +0200
+
+    First commit
+    
+    	new file:   Plugins/Lyrics/Lyrics.pro
+    	new file:   Plugins/Lyrics/moc_plugin.cpp
+    	new file:   Plugins/Lyrics/widget.cpp
+    	new file:   Plugins/Lyrics/widget.h
+    	new file:   Plugins/TagEditor/tagEditor.pro
+    	new file:   Plugins/TagEditor/widget.cpp
+    	new file:   Plugins/TagEditor/widget.h
+    	new file:   Plugins/Wikipedia/Wikipedia.pro
+    	new file:   Plugins/Wikipedia/album.png
+    	new file:   Plugins/Wikipedia/artist.png
+    	new file:   Plugins/Wikipedia/icon.png
+    	new file:   Plugins/Wikipedia/music.png
+    	new file:   Plugins/Wikipedia/ressource.qrc
+    	new file:   Plugins/Wikipedia/widget.cpp
+    	new file:   Plugins/Wikipedia/widget.h
+    	new file:   README
+    	new file:   TagEditor_fr.ts
+    	new file:   Wikipedia_fr.ts
+    	new file:   Xound.pro
+    	new file:   Xound_fr.ts
+    	new file:   cover.cpp
+    	new file:   images/Add.png
+    	new file:   images/Add_Folder.png
+    	new file:   images/Add_From_Network.png
+    	new file:   images/Default_Cover.png
+    	new file:   images/Fullscreen.png
+    	new file:   images/Icon.png
+    	new file:   images/Open_Playlist.png
+    	new file:   images/Player_Next.png
+    	new file:   images/Player_Pause.png
+    	new file:   images/Player_Play.png
+    	new file:   images/Player_Previous.png
+    	new file:   images/Random.png
+    	new file:   images/Remove.png
+    	new file:   images/Remove_Double.png
+    	new file:   images/Repeat.png
+    	new file:   images/Save_Playlist.png
+    	new file:   images/Systray_Close.png
+    	new file:   images/Systray_Icon_Play.png
+    	new file:   images/Systray_Icon_Play10.png
+    	new file:   images/Systray_Icon_Play100.png
+    	new file:   images/Systray_Icon_Play20.png
+    	new file:   images/Systray_Icon_Play30.png
+    	new file:   images/Systray_Icon_Play40.png
+    	new file:   images/Systray_Icon_Play50.png
+    	new file:   images/Systray_Icon_Play60.png
+    	new file:   images/Systray_Icon_Play70.png
+    	new file:   images/Systray_Icon_Play80.png
+    	new file:   images/Systray_Icon_Play90.png
+    	new file:   images/Systray_Maximize.png
+    	new file:   images/Systray_Player_Pause.png
+    	new file:   images/Systray_Player_Play.png
+    	new file:   images/Volume.png
+    	new file:   images/Volume_Mute.png
+    	new file:   include/cover.h
+    	new file:   include/mainwindow.h
+    	new file:   include/mprismanager.h
+    	new file:   include/musiccontrol.h
+    	new file:   include/musicnote.h
+    	new file:   include/playlist.h
+    	new file:   include/playlistwidget.h
+    	new file:   include/plugin.h
+    	new file:   include/videowidget.h
+    	new file:   include/workzone.h
+    	new file:   main.cpp
+    	new file:   mainwindow.cpp
+    	new file:   mprismanager.cpp
+    	new file:   musiccontrol.cpp
+    	new file:   musicnote.cpp
+    	new file:   playlist.cpp
+    	new file:   playlistwidget.cpp
+    	new file:   ressource.qrc
+    	new file:   videowidget.cpp
+    	new file:   workzone.cpp

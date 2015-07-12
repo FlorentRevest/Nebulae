@@ -1,0 +1,23 @@
+First you must compile Xound: /!\ WARNING: You need the libtag1-dev, libtag-extras1 and libphonon-dev packages to compile Xound and its plugins /!\
+
+Just type in a terminal, in the root directory of Xound:
+    qmake
+    make
+
+And then to install Xound type
+    sudo make install
+
+If you want to compile plugins, cd to  plugins/TheNameOfThePlugin (for example: plugins/Lyrics) , and type:
+    qmake
+    make
+
+If you want to install plugins, it's also simple, in the directory of the plugin type:
+    sudo make install
+
+And then run Xound with:
+    xound
+ and enjoy! :)
+
+
+			 Thank you to use Xound, 
+				                 The Xound team.

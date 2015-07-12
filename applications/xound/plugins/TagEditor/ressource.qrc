@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>tagEditor.png</file>
+    </qresource>
+</RCC>

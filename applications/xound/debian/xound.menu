@@ -1,0 +1,4 @@
+?package(xound):needs="X11" section="Applications/Sound/Video" \
+  title="Xound" command="/usr/bin/xound" \
+  longtitle="A fun media player" \
+  icon="/usr/share/icons/xound.png"

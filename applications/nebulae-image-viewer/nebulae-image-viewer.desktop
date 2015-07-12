@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Image Viewer
+Comment=Browse and displays images
+TryExec=nebulae-image-viewer
+Exec=nebulae-image-viewer %u
+StartupNotify=true
+NoDisplay=true
+Terminal=false
+Type=Application
+Categories=Graphics;Viewer;
+MimeType=image/bmp;image/gif;image/jpeg;image/jpg;image/pjpeg;image/png;image/x-bmp;image/x-ico;image/x-png;image/x-portable-bitmap;image/x-xbitmap;

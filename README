@@ -1,0 +1,34 @@
+To compile the desktop and its apps, you will need the following dependencies :
+    * Qt Framework >= 4.7 (with libphonon-dev)
+    * make, GCC/G++/ GNU Binutils (or others linkers/compilers, although they have not been tested)
+	* libglib-2.0-dev and libgvfscommon0-dev are required to build the API
+	* libparted-dev is required for the installer
+	* libtag-dev is needed to compile Xound
+	* libpackagekit-qt-dev is also neede by the package install
+
+First, you need to compile the Nebulae API used by the applications
+ 
+    cd nebulae-api
+	qmake
+	make
+	sudo make install
+	
+To compile an application, just cd to the source folder and run
+
+    qmake
+    make
+
+To test the desktop, we recommand you to use a Xserver emulator such as Xephyr : (install the package Xserver-xephyr)
+
+    Xephyr :1 -ac -screen 800x600 &        # you can change the size of the virtual screen
+    export DISPLAY=:1.0                    # without "&" at the end!
+    xterm &                                # just for having a window
+    metacity &                             # you can run another WM
+    path/to/Nebulae/desktop/desktop &      # and of course the desktop!
+
+NOTE: if you want to run another application, don't forget the little "&" at the end of the command!
+
+To use the nebulae's themes, unpack distrib/themes/gtk2/nebulae-gtk-theme.tgz to ~/.themes 
+
+	tar zxvf distrib/themes/gtk2/nebulae-gtk-theme.tgz
+	mv nebulae-gtk-theme ~/.themes/

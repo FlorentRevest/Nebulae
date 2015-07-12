@@ -1,0 +1,7 @@
+[GdmGreeterTheme]
+Greeter=nebulae.xml
+Name=Nebulae
+Description=Nebulae's GDM Theme based on Debian SpaceFun
+Author=Revest Florent <florent.revest666@gmail.com> & Yves-Alexis Perez <corsac@debian.org>
+Copyright=(c) 2011 (GPLv2)
+Screenshot=screenshot.png
